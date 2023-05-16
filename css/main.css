@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #6E6E6E;
+}
+.header-content{
+    background-color: yellowgreen;
+    height: 7.5rem;
+}
+.header-content p{
+    margin-left: 20px;
+    margin-right: 10px;
+    font-family: "Montserrat";
+    font-size: larger;
+    margin-top: 10px;
+} 
+#logout{
+    float: right;
+    background-color: rgb(89, 76, 184);
+    color: white;
+    font-size: 20px;
+    border-radius:25px;
+    padding: 15px;
+}
+
+.content{
+    padding: 10px;
+    font-family:'Montserrat';
+    font-size: xx-large;
+    background-color: yellowgreen;
+    color: white;
+    font-family: "Montserrat";
+    margin-left:10px;
+}
+
+
+/*******************/
+.card{
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 15%;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 1s;
+    display: block;
+    float: left;
+    background-color: rgb(236, 211, 178);
+    font-family: "Montserrat";
+    
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+h4{
+    background-color: rgb(236, 211, 178);
+    
+}
+.container {
+    background-color: rgb(236, 211, 178);
+    padding: 2px 16px;
+}
+
+.eventimg{
+    width: 100%;
+}
+
+button{
+    background-color: #BAFF39;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Montserrat";
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+}

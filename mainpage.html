@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body style="background-image: url(https://i.pinimg.com/originals/d0/a8/65/d0a8650b736be8224d31f479cca872f4.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-attachment: fixed; ">
+    <header>
+        <div class="header-content">
+            <div class="content">Dashboard</div>
+            <button id="logout">logout</button>
+            <p id="welcome"></p>
+        </div>
+    </header>
+    <div class="card">
+        <img class="eventimg" src="https://img.freepik.com/free-vector/gradient-sports-games-illustration_23-2148968156.jpg" alt="">
+        <div class="container">
+            <br>
+            <h4 class="eventcontent">Add Sports Event</h4>
+            <br>
+            <button><a href="/addevent.html">Add Event</a></button>
+        </div>
+    </div>
+    <div class="card">
+        <img class="eventimg" src="https://img.freepik.com/free-vector/gradient-sports-games-illustration_23-2148968156.jpg" alt="">
+        <div class="container">
+            <br>
+            <h4 class="eventcontent">Update or Delete Event</h4>
+            <br>
+            <button><a href="/updateevent.html">Update / Delete</a></button>
+        </div>
+    </div>
+          <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
+
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>
+
+<script src="/mainpg.js"></script>
+</body>
+</html>

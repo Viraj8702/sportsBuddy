@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/addevent.css">
+     <!-- icons -->
+     <script
+     src="https://kit.fontawesome.com/1494e1c69c.js"
+     crossorigin="anonymous"
+   ></script>
+
+   <!-- google fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body style="background-image:url(https://img.freepik.com/free-vector/line-style-memphis-abstract-background_1017-33617.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-attachment: fixed; ">
+    <header>
+        <div class="header-content">
+            <div class="content">Delete Event</div><br><br>
+            <a href="adminMainpg.html" style="cursor: pointer; text-decoration: none; color: #654caf;"><i class="fa-solid fa-arrow-left fa-xl" style="margin-left: 10px;"></i></a>
+        </div>
+    </header>
+    
+    <div class="card">
+    <form action="" id="inputform">
+        <div class="form">
+            <label> Enter Event name to Update / Delete : </label><br><br>
+            <input type="text" name="eventname" id="eventname" > <br><br>
+            <button type="button" onclick="remove()">Delete Event</button>
+        </div>
+    </form>
+    </div>
+    
+    <div class="outputcard">
+        <p id="output"></p>
+    </div>
+    
+<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>
+
+<!-- Your add event.js file -->
+<script src="update.js"></script>
+
+    
+
+    
+</body>
+</html>

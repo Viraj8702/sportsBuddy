@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/02/86/76/77/360_F_286767786_boXM75PDLYIsYWzabZ3fKcM3esv50TNS.jpg");
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    
+}
+.header-content{
+    background-color: #a0aec0;
+    height: 7.5rem;
+}
+.header-content p{
+    margin-left: 20px;
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    margin-top: 10px;
+} 
+#logout{
+    float: right;
+    background-color: rgb(89, 76, 184);
+    color: white;
+    font-size: 20px;
+    border-radius:25px;
+    padding: 15px;
+}
+#login{
+    float: right;
+    background-color: rgb(89, 76, 184);
+    color: white;
+    font-size: 20px;
+    border-radius:25px;
+    padding: 15px;
+    font-family: "Montserrat";
+}
+#register{
+    float: right;
+    background-color: rgb(89, 76, 184);
+    color: white;
+    font-size: 20px;
+    border-radius:25px;
+    padding: 15px;
+    font-family: "Montserrat";
+}
+
+.content{
+    padding: 10px;
+    font-family: "Montserrat";
+    letter-spacing: 2px;
+    font-size: xx-large;
+    background-color: #a0aec0;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*******************/
+.card{
+    margin-left: 17%;
+    margin-top: 5%;
+    width: 65%;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 1s;
+    display: block;
+    float: left;
+    background-color: antiquewhite;
+    font-family: "Montserrat";
+    
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+h4{
+    background-color: antiquewhite;
+    
+}
+.container {
+    background-color: antiquewhite;
+    padding: 2px 16px;
+}
+.container p{
+    font-family: "Montserrat";
+    font-size: large;
+}
+
+.eventimg{
+    width: 100%;
+}
+
+button{
+    background-color: #BAFF39;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.prizeimg{
+    width: 5%;
+}
+#footer{
+    background-color:#cae2eb;
+    text-align:center;
+    margin-top: 40%;
+    padding-top:3%;
+    padding-bottom:10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: "Montserrat";
+}
+.travel{
+    height: 8rem;
+    width: 10rem;
+    text-align: left;
+    font-size: 18px;
+    float: left; 
+
+}
+.about{
+    height: 8rem;
+    width: 10rem;
+    float: left;
+    margin-left: 5%;
+    font-size: 18px;
+   
+}
+.company{
+    height: 8rem;
+    width: 10rem;
+    float: left;
+    margin-left: 5%;
+    font-size: 18px;
+}
+.support{
+    height: 8rem;
+    width: 10rem;
+    float: left;
+    margin-left: 5%;
+    font-size: 18px;
+}
+@media (max-width:1230px){
+    #footer{
+      width:60%;
+      position:static;
+      transform:rotate(0);
+    }
+    
+  }
+  
